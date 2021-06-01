@@ -4,5 +4,55 @@ body{
     background-size: cover;
     height: 100%;
     margin: 0;
+    
 
 }
+header{
+    display: grid;
+    grid-template-columns: max-content;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 40px;
+    
+}
+h1{
+    font-family: 
+}
+.ios{
+    padding:10px;
+    width: max-content;
+    background-color:rgb(50, 150, 150);
+    border-radius: 20px;
+    color: white;
+    font-size: medium;
+}
+.mac{
+    padding:10px;
+    width: max-content;
+    background-color: rgb(91, 74, 185);
+    border-radius: 20px;
+    color: white;
+    font-size: medium;
+}
+section.header-text {
+    margin-top: 40px;
+    margin-block-end: 30px;
+    font-size: x-large;
+    font-family: system-ui;
+   
+    
+}
+p{
+    color: slategrey;
+}
+h1{
+    color: rgb(65, 64, 64);
+}
+section.header-logo {
+    display: block;
+    margin-block: inherit;
+    margin-left: 150px;
+}
+section.menu-header {
+    margin-inline: 70px;
+    
