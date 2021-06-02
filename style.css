@@ -4,7 +4,7 @@ body{
     background-size: cover;
     height: 100%;
     margin: 0;
-    
+      
 
 }
 header{
@@ -45,14 +45,48 @@ section.header-text {
 p{
     color: slategrey;
 }
-h1{
+h1 h2 h3{
     color: rgb(65, 64, 64);
 }
 section.header-logo {
     display: block;
-    margin-block: inherit;
     margin-left: 150px;
 }
 section.menu-header {
     margin-inline: 70px;
+}
+
+section.tx-1 {
+    margin-top: 150px;
+    margin-left: 400px;
+}   
+section.tx-1 p {
     
+    margin-left: 300px;
+}
+section.tx-1 p {
+    margin-left: -80px;
+}
+
+
+img.img-1  {
+    
+    grid-template-columns: max-content;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 40px;
+    width: 500px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.main-2{
+    display: grid;
+    grid-template-columns: max-content;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 40px;
+}
