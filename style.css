@@ -7,7 +7,7 @@ body{
       
 
 }
-header{
+header  {
     display: grid;
     grid-template-columns: max-content;
     justify-content: center;
@@ -15,9 +15,8 @@ header{
     margin-left: 40px;
     
 }
-h1{
-    font-family: 
-}
+
+
 .ios{
     padding:10px;
     width: max-content;
@@ -29,7 +28,7 @@ h1{
 .mac{
     padding:10px;
     width: max-content;
-    background-color: rgb(91, 74, 185);
+    background-color: rgb(90, 73, 184);
     border-radius: 20px;
     color: white;
     font-size: medium;
@@ -89,4 +88,13 @@ img.img-1  {
     justify-content: center;
     margin-top: 60px;
     margin-left: 40px;
+}
+.container-2{
+    justify-content: space-evenly;
+    text-align-last: justify;
+}
+section.pre-footer {
+    display: block;
+    margin-top: 90px;
+    margin-left: 400px;
 }
